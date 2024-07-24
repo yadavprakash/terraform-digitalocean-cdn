@@ -17,7 +17,7 @@ This Terraform module creates structured cdn for digitalocean resources with spe
 Example:Basic
 ```hcl
 module "CDN" {
-  source = "git::https://github.com/opsstation/terraform-digitalocean-cdn.git?ref=v1.0.0"
+  source = "git::https://github.com/yadavprakash/terraform-digitalocean-cdn.git?ref=v1.0.0"
   origin = module.spaces.bucket_domain_name
   ttl    = 3600
 }
@@ -26,7 +26,7 @@ module "CDN" {
 Example:complete
 ```hcl
 module "CDN" {
-  source           = "git::https://github.com/opsstation/terraform-digitalocean-cdn.git?ref=v1.0.0"
+  source           = "git::https://github.com/yadavprakash/terraform-digitalocean-cdn.git?ref=v1.0.0"
   origin           = module.spaces.bucket_domain_name
   ttl              = 3600
   custom_domain    = null
@@ -50,16 +50,16 @@ Please ensure you specify the correct 'source' path for the module.
 - This module currently does not provide any outputs.
 
 # Examples:Basic
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-cdn/tree/master/_example/basic)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-digitalocean-cdn/tree/master/_example/basic)' directory within this repository.
 # Examples:complete
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-cdn/tree/master/_example/completes)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-digitalocean-cdn/tree/master/_example/completes)' directory within this repository.
 
 ## Authors
 Your Name
 Replace '[License Name]' and '[Your Name]' with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/opsstation/terraform-digitalocean-cdn/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/yadavprakash/terraform-digitalocean-cdn/blob/master/LICENSE) file for details.
 
 
 

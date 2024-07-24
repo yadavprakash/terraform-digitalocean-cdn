@@ -27,3 +27,4 @@ variable "certificate_name" {
   default     = null
   description = "The unique name of a DigitalOcean managed TLS certificate used for SSL when a custom subdomain is provided."
 }
+
